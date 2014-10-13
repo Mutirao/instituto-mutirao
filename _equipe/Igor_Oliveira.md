@@ -4,4 +4,4 @@ photo: https://raw.githubusercontent.com/thoughtbot/refills/master/source/images
 
 # Igor Oliveira
 
-Business Developer
+Negócios
