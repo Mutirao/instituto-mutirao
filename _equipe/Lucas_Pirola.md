@@ -4,4 +4,4 @@ photo: https://raw.githubusercontent.com/thoughtbot/refills/master/source/images
 
 # Lucas Pirola
 
-Sr. Developer
+Desenvolvimento
