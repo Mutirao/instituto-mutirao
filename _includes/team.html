@@ -1,13 +1,15 @@
 <section id="equipe">
-  <h2>Equipe</h2>
-  <div class="grid-items-lines">
-    {% for member in site.equipe %}
-      <a href="javascript:void(0)" class="grid-item">
-        <img src="{{ member.photo }}" alt="">
-        {{ member.content }}
-      </a>
-    {% endfor %}
-    <div class="right-cover"></div>
-    <div class="bottom-cover"></div>
+  <div class="container">
+    <h2>Equipe</h2>
+    <div class="grid-items-lines">
+      {% for member in site.equipe %}
+        <a href="javascript:void(0)" class="grid-item">
+          <img src="{{ member.photo }}" alt="">
+          {{ member.content }}
+        </a>
+      {% endfor %}
+      <div class="right-cover"></div>
+      <div class="bottom-cover"></div>
+    </div>
   </div>
 </section>

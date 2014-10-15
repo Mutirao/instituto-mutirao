@@ -1,7 +1,9 @@
 <section id="software-livre">
-  {% for oss in site.oss %}
-    <div class="intro-text">
-      {{ oss.content }}
-    </div>
-  {% endfor %}
+  <div class="container">
+    {% for oss in site.oss %}
+      <div class="intro-text">
+        {{ oss.content }}
+      </div>
+    {% endfor %}
+  </div>
 </section>

@@ -1,18 +1,20 @@
 <section id="cases">
-  <h2>O Mutirão em ação</h2>
-  <div class="cards">
-    {% for case in site.cases %}
-      <div class="card">
-        <div class="card-image">
-          <img src="{{case.image}}">
+  <div class="container">
+    <h2>O Mutirão em ação</h2>
+    <div class="cards">
+      {% for case in site.cases %}
+        <div class="card">
+          <div class="card-image">
+            <img src="{{case.image}}">
+          </div>
+          <div class="card-header">
+            {{case.title}}
+          </div>
+          <div class="card-copy">
+            {{case.content}}
+          </div>
         </div>
-        <div class="card-header">
-          {{case.title}}
-        </div>
-        <div class="card-copy">
-          {{case.content}}
-        </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </section>

@@ -1,16 +1,18 @@
 <section id="clientes">
-  <h2>Quem já usa serviços digitais do Mutirão?</h2>
-  <div>
-    <p>O Mutirão nasceu em movimentos e coletivos urbanos e se aperfeiçoou dentro de governos. As instituições políticas mais inovadoras atualmente usam seus serviços e produtos:</p>
-  </div>
-  <div class="grid-items-lines">
-    {% for cliente in site.clientes %}
-      <a href="javascript:void(0)" class="grid-item">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
-        {{cliente.content}}
-      </a>
-    {% endfor %}
-    <div class="right-cover"></div>
-    <div class="bottom-cover"></div>
+  <div class="container">
+    <h2>Quem já usa serviços digitais do Mutirão?</h2>
+    <div>
+      <p>O Mutirão nasceu em movimentos e coletivos urbanos e se aperfeiçoou dentro de governos. As instituições políticas mais inovadoras atualmente usam seus serviços e produtos:</p>
+    </div>
+    <div class="grid-items-lines">
+      {% for cliente in site.clientes %}
+        <a href="javascript:void(0)" class="grid-item">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
+          {{cliente.content}}
+        </a>
+      {% endfor %}
+      <div class="right-cover"></div>
+      <div class="bottom-cover"></div>
+    </div>
   </div>
 </section>

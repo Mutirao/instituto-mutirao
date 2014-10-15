@@ -1,13 +1,15 @@
 <section id="depoimentos">
-  <h2>Depoimentos</h2>
-  {% for depoimento in site.depoimentos %}
-    <div class="comment">
-      <div class="comment-image">
-        <img src="{{ depoiment.logo }}" alt="{{ depoimento.title }}">
+  <div class="container">
+    <h2>Depoimentos</h2>
+    {% for depoimento in site.depoimentos %}
+      <div class="comment">
+        <div class="comment-image">
+          <img src="{{ depoiment.logo }}" alt="{{ depoimento.title }}">
+        </div>
+        <div class="comment-content">
+          {{ depoimento.content }}
+        </div>
       </div>
-      <div class="comment-content">
-        {{ depoimento.content }}
-      </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </section>
