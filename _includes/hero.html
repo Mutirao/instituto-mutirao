@@ -2,12 +2,12 @@
   {% for apresentacao in site.apresentacao %}
     <div class="hero-inner">
       <a href="index.html" class="hero-logo">
-        <img src="images/logo-positive.svg" alt="Mutirão">
+        <img src="images/logo-positive.svg" alt="Instituto Mutirão">
       </a>
       <div class="hero-copy">
         {{ apresentacao.content }}
       </div>
-      <button>Faça contato</button>
+      <a href="mailto:{{site.email}}" class="button black">Entre em contato</a>
     </div>
   {% endfor %}
 </div>
