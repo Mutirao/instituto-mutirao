@@ -1,4 +1,4 @@
-/* globals jQuery */
+/* globals jQuery, Modernizr */
 
 (function ($) {
   'use strict';
@@ -24,5 +24,11 @@
       $(this).addClass('active-nav-item');
       $('.nav .more').removeClass('active-nav-item');
     });
+
+    if (!Modernizr.svg) {
+      $('.navigation .logo img, .hero-logo img').attr('src', function (idx, svgLocation) {
+        return svgLocation.replace(/\.svg$/, '.png');
+      });
+    }
   });
 })(jQuery);
