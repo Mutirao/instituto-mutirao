@@ -5,11 +5,11 @@
       {% for member in site.equipe %}
         <a href="javascript:void(0)" class="grid-item">
           <img src="{{ member.photo }}" alt="">
-          {{ member.content }}
+          <div class="description">
+            {{ member.content }}
+          </div>
         </a>
       {% endfor %}
-      <div class="right-cover"></div>
-      <div class="bottom-cover"></div>
     </div>
   </div>
 </section>

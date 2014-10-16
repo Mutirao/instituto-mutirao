@@ -1,7 +1,7 @@
 ---
-photo: https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png
+photo: http://nucleo-digital.github.io/instituto/images/equipe/geciola.png
 ---
 
 # Gecíola Fonseca
 
-Projetos 
+Projetos

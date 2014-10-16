@@ -1,0 +1,33 @@
+#equipe {
+  background-color: #7F3F97;
+  padding: 4em 0;
+
+  .grid-item {
+    padding: 0;
+    background-color: #7F3F97;
+    color: #fff;
+    border-color: #fff;
+    height: 15em;
+
+    h1,p {
+      color: #fff;
+    }
+
+    img {
+      height: auto;
+      opacity: 1;
+    }
+
+    .description {
+      margin: .5em 2em;
+    }
+
+  }
+
+  h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .25);
+    margin-bottom: 60px;
+  }
+}
