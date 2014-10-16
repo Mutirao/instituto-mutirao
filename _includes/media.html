@@ -1,17 +1,12 @@
 <section id="na-midia">
   <div class="container">
     <h2>Na mídia</h2>
-    <ul class="bullets">
+    <div class="grid-items-lines">
       {% for midia in site.midia %}
-        <li class="bullet three-col-bullet">
-          <div class="bullet-icon bullet-icon-1">
-            <img src="{{ midia.icon }}" alt="{{ midia.name }}">
-          </div>
-          <div class="bullet-content">
+        <a href="{{midia.link}}" class="grid-item">
             {{ midia.content }}
-          </div>
-        </li>
+        </a>
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </section>
