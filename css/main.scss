@@ -7,6 +7,9 @@
 @import "base/base";
 @import "neat/neat";
 
+$fa-font-path: "/fonts/";
+@import "font-awesome/font-awesome";
+
 @import "icons";
 @import "button";
 @import "objectives";
