@@ -1,5 +1,5 @@
 ---
-photo: http://nucleo-digital.github.io/instituto/images/equipe/lucas.png
+photo: http://nucleo-digital.github.io/images/equipe/lucas.png
 ---
 
 # Lucas Pirola

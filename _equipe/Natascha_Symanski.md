@@ -1,5 +1,5 @@
 ---
-photo: http://nucleo-digital.github.io/instituto/images/equipe/natascha.png
+photo: http://nucleo-digital.github.io/images/equipe/natascha.png
 ---
 
 # Natascha Symanski

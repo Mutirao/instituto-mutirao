@@ -1,5 +1,5 @@
 ---
-photo: http://nucleo-digital.github.io/instituto/images/equipe/igor.png
+photo: http://nucleo-digital.github.io/images/equipe/igor.png
 ---
 
 # Igor Oliveira

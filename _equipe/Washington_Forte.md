@@ -1,5 +1,5 @@
 ---
-photo: http://nucleo-digital.github.io/instituto/images/equipe/washington.png
+photo: http://nucleo-digital.github.io/images/equipe/washington.png
 ---
 
 # Washington Forte

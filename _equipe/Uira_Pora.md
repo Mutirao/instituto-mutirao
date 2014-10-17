@@ -1,5 +1,5 @@
 ---
-photo: http://nucleo-digital.github.io/instituto/images/equipe/uira.png
+photo: http://nucleo-digital.github.io/images/equipe/uira.png
 ---
 
 # Uirá Porâ

@@ -1,5 +1,5 @@
 ---
-photo: http://nucleo-digital.github.io/instituto/images/equipe/vini.png
+photo: http://nucleo-digital.github.io/images/equipe/vini.png
 ---
 
 # Vinicius Russo

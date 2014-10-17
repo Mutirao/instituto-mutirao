@@ -1,5 +1,5 @@
 ---
-photo: http://nucleo-digital.github.io/instituto/images/equipe/luiz.png
+photo: http://nucleo-digital.github.io/images/equipe/luiz.png
 ---
 
 # Luiz Sócrate

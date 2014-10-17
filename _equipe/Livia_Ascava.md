@@ -1,5 +1,5 @@
 ---
-photo: http://nucleo-digital.github.io/instituto/images/equipe/livia.png
+photo: http://nucleo-digital.github.io/images/equipe/livia.png
 ---
 
 # Lívia Ascava
