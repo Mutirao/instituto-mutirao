@@ -53,6 +53,7 @@
         margin-bottom: 1em;
         font-weight: 200;
         line-height: 1.4em;
+        text-shadow: 2px 2px 2px rgba(255,255,255, 1);
 
         @include media($large-screen) {
           font-size: 1.1em;
