@@ -10,7 +10,7 @@
   // background-repeat: no-repeat;
   // background-position: top;
   // background-size: cover;
-  background: #F1F1F1;
+  background: transparent;
   padding-bottom: 4em;
 
   .hero-logo {
@@ -65,5 +65,9 @@
         font-weight: bold;
       }
     }
+  }
+  position: relative;
+  .video-bg {
+    position: absolute;
   }
 }
