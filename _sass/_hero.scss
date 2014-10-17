@@ -34,21 +34,19 @@
       outline: none;
     }
 
+    h1 {
+      max-width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
     .hero-copy {
       text-align: justify;
       margin-bottom: 2em;
 
-      h1 {
-        font-size: 1.6em;
-        margin-bottom: .5em;
-        text-align: center;
 
-        @include media($large-screen) {
-          font-size: 1.8em;
-        }
-      }
 
-      h2,
+      h3,
       p {
         margin: auto;
         margin-bottom: 1em;
@@ -63,7 +61,7 @@
         }
       }
 
-      h2 {
+      h3 {
         text-align: center;
         font-weight: bold;
       }
@@ -72,5 +70,16 @@
   position: relative;
   .video-bg {
     position: absolute;
+  }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero .hero-inner {
+    padding: 1.5em;
+  }
+  .hero .hero-inner h1 {
+    max-width: 100%;
   }
 }
