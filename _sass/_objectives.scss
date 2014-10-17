@@ -9,8 +9,11 @@
     margin-bottom: 20px;
   }
 
-  li.bullet.three-col-bullet {
-    height: 7.2em;
+  .bullets {
+    overflow: hidden;
+    li.bullet.three-col-bullet {
+      height: 7em;
+    }
   }
 
   .bullet-icon {
