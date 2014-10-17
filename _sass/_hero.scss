@@ -11,7 +11,7 @@
   // background-position: top;
   // background-size: cover;
   background: transparent;
-  padding-bottom: 4em;
+  // padding-bottom: 4em;
 
   .hero-logo {
     display: block;
@@ -20,7 +20,8 @@
   }
 
   .hero-inner {
-    @include outer-container;
+    background-color: rgba(0,0,0,.3);
+    // @include outer-container;
     @include clearfix;
     padding: 3em;
     margin: auto;
@@ -53,7 +54,8 @@
         margin-bottom: 1em;
         font-weight: 200;
         line-height: 1.4em;
-        text-shadow: 2px 2px 2px rgba(255,255,255, 1);
+        text-shadow: 2px 2px 2px rgba(0,0,0, 1);
+        color: #fff;
 
         @include media($large-screen) {
           font-size: 1.1em;
