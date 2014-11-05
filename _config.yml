@@ -18,5 +18,5 @@ collections:
 # Build settings
 markdown: kramdown
 
-gems: [jekyll-sass]
+gems: [jekyll-sass-converter]
 exclude: ["vendor"]
